@@ -12,7 +12,7 @@ Parameters:
     Description: S3 bucket containing the code deployed by this template
   CodeKeyPrefix:
     Type: String
-    Default: WebSite/StaticWebHosting
+    Default: WebSite
     Description: Key prefix for resources referenced from the CodeBucket
   CreateCert:
     Description: >-
