@@ -1,9 +1,5 @@
 # TestProject
 
-Step 2:
- Build Infrastructer using cloudformation template "staticwebsite_emp_with_ACM_cloudfront.yaml".
-This CF template will build s3 website with cloudfront and certificates genrated by ACM. 
-
 
 Step 1:
  a. Make S3 bucket in your region named "employee-eu-west-1" for the CodeRepository. Later on this bucket will be used for CI/CD pipeline using CodePipeline & CodeDeploy. 
